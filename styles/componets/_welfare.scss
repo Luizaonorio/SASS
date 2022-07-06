@@ -1,0 +1,28 @@
+@import '../abstract/variaveis';
+
+#welfare {
+  .card {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  img {
+    width: 60%;
+  }
+  }
+  #text {
+    text-align: center;
+    padding: 0 0 20px 0;
+    h3 {
+      font-size: $tamanho-do-texto / 2;
+      color: $cor-primaria;
+    }
+    h4 {
+      font-size: $tamanho-do-texto / 1.5;
+      margin-top: 25px;
+    }
+    p {
+      font-size: $tamanho-do-texto / 2;
+      margin-top: 20px;
+    }
+  }
+}
